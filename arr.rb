@@ -167,3 +167,7 @@
 # end
 # print "Total: #{total}"
 # input.close
+
+# for переменная [, переменные ... ] in выражение [do]
+#   код
+# end

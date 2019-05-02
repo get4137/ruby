@@ -47,3 +47,6 @@
 # puts z #3
 # x ||= y
 # puts y #10
+
+
+# 5.times { |i| puts "i = #{i}, even: #{i.even?}"}
