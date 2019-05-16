@@ -1,3 +1,30 @@
+# arr = [1, 2, 3, 4]
+# print arr
+# arr.unshift(0)
+# print arr
+# arr.push(4)
+# print arr
+# arr << 4
+# print arr
+# last = arr.pop
+# print arr
+# first = arr.shift
+# print arr
+# item = arr.delete_at(0)
+# print arr
+# value = arr.delete(2)
+# print arr
+# arr_uniq = arr.uniq
+# print arr_uniq
+
+# x = 'my dog likes to have a dinner, at 8 ocklock'
+# arr = x.split(//)
+# size = arr.size
+# (size).downto(0) do |x|
+# 	print arr[x]
+# end
+# puts x.split(//).reverse.join('')
+
 # arr = []
 # puts 'введите ваш любимый цвет (или stop для выхода): '
 # while true

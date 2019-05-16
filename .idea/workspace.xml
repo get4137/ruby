@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="486dc518-e0f0-4d10-a7d9-88bdfbaa6316" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arr.rb" beforeDir="false" afterPath="$PROJECT_DIR$/arr.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/def.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/each.rb" beforeDir="false" afterPath="$PROJECT_DIR$/block.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/each_do.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/variable.rb" beforeDir="false" afterPath="$PROJECT_DIR$/variable.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yield.rb" beforeDir="false" afterPath="$PROJECT_DIR$/yield.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/class.rb" beforeDir="false" afterPath="$PROJECT_DIR$/class.rb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,6 +25,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -42,13 +37,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../toy_app" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -76,16 +70,17 @@
       <updated>1556819157572</updated>
       <workItem from="1556819158819" duration="20000" />
       <workItem from="1556823313325" duration="15000" />
+      <workItem from="1557683588400" duration="116000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35000" />
+    <option name="totallyTimeSpent" value="151000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
+    <frame x="67" y="25" width="1299" height="743" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18926397" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19233839" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
