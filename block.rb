@@ -319,10 +319,83 @@
 # my_proc = Proc.new { |x| x % 2 == 0 }
 # my_proc2 = proc { |x| x % 2 == 0 }
 #
-# my_proc3 = -> (x) { x % 2 == 0 }
-# my_proc4 = lambda { |x| x % 2 == 0 }
+# my_proc3 = -> (x, y) { x % 2 + y == 0 }
+# my_proc4 = lambda { |x| x % 2 + y == 0 }
 #
 # puts my_proc.call(2)
 # puts my_proc2.(2)
 # puts my_proc3.call(2)
 # puts my_proc4.call(2)
+
+
+# @arr = ['taras', 'tanya']
+#
+# def capitalize
+#   @arr.map! {|e| e.capitalize}
+# end
+#
+# capitalize
+# puts @arr
+
+
+# module A
+
+#   def m
+#     puts 'A'
+#   end
+# end
+
+# class C
+#   include A
+#   def m
+#     puts 'C'
+#   end
+# end
+
+# cat = C.new
+# cat.m
+
+# mr = Proc.new { puts "Я мистер прок!" }
+# ms = Proc.new { puts "Я миссис прок!" }
+# def hello(p1, p2)
+#  p1.call
+#  p2.call
+# end
+# hello(mr, ms)
+
+
+# lam = lambda { |x, y| puts x, y } # лямбда с одним аргументов
+# lam.call('Привет!', 'medved') # => Привет!
+# lam.call # => ArgumentError: wrong number of arguments (0 for 1)
+# lam.call('Привет,', 'как') # => ArgumentError: wrong number of arguments (3 for 1)
+# Проки игнорируют неправильное количество аргументов:
+# proc = Proc.new { |x, y| puts x, y } # прок с одним аргументом
+# proc.call("Привет!") # => Привет
+# proc.call # => nil
+# proc.call('Привет,', 'как', 'дела?') # => Привет,
+
+
+# class MyClass
+#   def self.hello
+#     p 'hello'
+#   end
+# end
+
+# MyClass.hello
+
+
+class Animal
+	def run
+		puts 'run'
+	end
+	private 
+	def eat
+		puts 'eat'
+	end
+end
+dog = Animal.new
+dog.run
+dog.send(:eat)
+dog.public_send(:run)
+dog.method(:run).call
+dog.method(:eat).call

@@ -1,3 +1,14 @@
+# class WeAreClasses
+#   def initialize
+#     @data = "I'm instance data of this object. Hello!"
+#   end
+#   def method
+#     puts @data
+#   end
+# end
+# object = WeAreClasses.new
+# object.method
+
 # class Animal
 #   def run
 #     @name = 'Dog'
@@ -362,3 +373,18 @@
 # s = Something.new :x => 1, :y => 2
 # puts s.x
 # puts s.y
+
+
+# class Animal
+#   def run
+#     @name = 'Dog'
+#     puts "#{@name} is running!"
+#   end
+# end
+# aa = Animal.new
+# aa.run
+# def aa.gav
+# 	puts "#{@name} gavkaet!"
+# end
+# aa.gav
+#  puts aa.methods - Object.methods
