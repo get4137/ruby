@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # class Airplane
 #   attr_reader :model
 #   attr_reader :alt
@@ -34,7 +36,6 @@
 #   puts "is moving?: #{plane.moving?}"
 # end
 
-
 # class Book
 #   attr_reader :last_person
 #   def initialize
@@ -57,7 +58,6 @@
 # b.add_person :name => 'Valya', :age => 13
 # b.show_all
 # puts "last: #{b.last_person}"
-
 
 # class Book
 #   def initialize
@@ -88,7 +88,6 @@
 # b.show_all
 # puts b.aa
 # b.last_person
-
 
 # class Airport
 #   attr_reader :name, :planes
@@ -130,7 +129,6 @@
 #   end
 # end
 
-
 # class Man
 #   attr_reader :name
 #   def initialize name
@@ -144,7 +142,6 @@
 # puts man.name
 # man.say_hi
 
-
 # class Something
 #   attr_accessor :name
 #   def initialize
@@ -153,7 +150,6 @@
 # end
 # s = Something.new
 # puts s.name
-
 
 # class Something
 #   attr_accessor :x, :y

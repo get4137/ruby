@@ -1,8 +1,9 @@
+# frozen_string_literal: true
+
 # options = {:font_size => 10, :font_family => 'Arial'}
 # x = options[:font_size]
 # y = options[:font_family]
 # puts "выбранный размер шрифта (#{y}) равен #{x}"
-
 
 # def get_com
 #  x = rand(1..4)
@@ -20,7 +21,6 @@
 # com = get_com
 # puts "получена команда: #{com}"
 
-
 # def get_com
 #  :left
 # end
@@ -29,7 +29,6 @@
 # if com == :left
 #  puts 'робот едет влево'
 # end
-
 
 # def print_details details
 #   print details[:name] if details[:name]
@@ -42,7 +41,6 @@
 # hh1 = {:name => 'JS', :age => 31}
 # print_details hh
 # print_details hh1
-
 
 # @hh = {}
 # def add_person opt
@@ -71,7 +69,6 @@
 #   add_person :name => name, :age => age
 # end
 # show_hash
-
 
 # class Airplane
 #   attr_reader :model
@@ -109,7 +106,6 @@
 #   puts "is moving?: #{plane.moving?}"
 # end
 
-
 # class Book
 #   attr_reader :last_person
 #   def initialize
@@ -132,7 +128,6 @@
 # b.add_person :name => 'Valya', :age => 13
 # b.show_all
 # puts "last: #{b.last_person}"
-
 
 # class Book
 #   def initialize
@@ -163,7 +158,6 @@
 # b.show_all
 # puts b.aa
 # b.last_person
-
 
 # class Album
 #   attr_reader :name, :songs
@@ -203,7 +197,6 @@
 # puts artist.albums[0].name
 # puts album.songs[0].name
 
-
 # class Song
 #   attr_reader :number, :name, :duration
 #   def initialize number, name, duration
@@ -216,7 +209,6 @@
 # puts song1.number
 # puts song1.name
 # puts song1.duration
-
 
 # class Albuquerque
 #   def initialize actions
@@ -231,7 +223,6 @@
 # a.cook
 # a.take_a_ride
 # a.die
-
 
 # class Something
 #   attr_accessor :x, :y
@@ -248,7 +239,6 @@
 # s = Something.new :x => 1, :y => 2
 # puts s.x
 # puts s.y
-
 
 # def mm par1
 # puts par1

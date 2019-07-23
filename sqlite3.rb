@@ -1,8 +1,9 @@
+# frozen_string_literal: true
+
 # require 'sqlite3'
 #  db = SQLite3::Database.new 'test.db'
 # db.execute "insert into cars (name, price) values ('Jaguar', 7777)"
 # db.close
-
 
 # require 'sqlite3'
 #  db = SQLite3::Database.new 'test.db'
@@ -11,7 +12,6 @@
 #   puts '====='
 # end
 # db.close
-
 
 # require 'sqlite3'
 # db = SQLite3::Database.new 'test.db'

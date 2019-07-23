@@ -1,9 +1,10 @@
+# frozen_string_literal: true
+
 # answer = 'Y'
 # while answer == 'Y'
 #   puts 'Хотите продолжить? (Y/N) '
 #   answer = gets.strip.capitalize
 # end
-
 
 # hh = {}
 # while true
@@ -17,7 +18,6 @@
 #   hh[name] = number
 # end
 # puts hh
-
 
 # hh = {
 #     'dog' => 'собака',
@@ -33,7 +33,6 @@
 #   puts hh[eng]
 # end
 
-
 # def run_5_times
 #   x = 0
 #   while x < 5
@@ -43,13 +42,11 @@
 # end
 # run_5_times {|i, v| puts "Something, index #{i}, value: #{v}"}
 
-
 # input = File.open('test.txt', 'r')
 # while (line = input.gets)
 #   puts line
 # end
 # input.close
-
 
 # input = File.open('test.txt', 'r')
 # while (line = input.gets)

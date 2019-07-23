@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # class WeAreClasses
 #   def initialize
 #     @data = "I'm instance data of this object. Hello!"
@@ -21,7 +23,6 @@
 # aa = Animal.new
 # aa.run
 # aa.stop
-
 
 # class Airplane
 #   attr_reader :model
@@ -59,7 +60,6 @@
 #   puts "is moving?: #{plane.moving?}"
 # end
 
-
 # class Book
 #   attr_reader :last_person
 #   def initialize
@@ -82,7 +82,6 @@
 # b.add_person :name => 'Valya', :age => 13
 # b.show_all
 # puts "last: #{b.last_person}"
-
 
 # class Book
 #   def initialize
@@ -113,7 +112,6 @@
 # b.show_all
 # puts b.aa
 # b.last_person
-
 
 # class Airport
 #   attr_reader :name, :planes
@@ -155,7 +153,6 @@
 #   end
 # end
 
-
 # class Album
 #   attr_reader :name, :songs
 #   def initialize name
@@ -194,7 +191,6 @@
 # puts artist.albums[0].name
 # puts album.songs[0].name
 
-
 # class Animal
 #   def initialize name
 #     @name = name
@@ -230,7 +226,6 @@
 # dog.run
 # dog.dog_say
 
-
 # class Song
 #   attr_reader :number, :name, :duration
 #   def initialize number, name, duration
@@ -243,7 +238,6 @@
 # puts song1.number
 # puts song1.name
 # puts song1.duration
-
 
 # class Animal
 #   def initialize name
@@ -278,7 +272,6 @@
 # dog = Dog.new
 # dog.bark
 
-
 # class Manager
 #   def self.say_hi
 #     puts 'Hi'
@@ -298,7 +291,6 @@
 # Hipster.say_hi
 # J_P.say_hi
 
-
 # class Man
 #   attr_reader :name
 #   def initialize name
@@ -311,7 +303,6 @@
 # man = Man.new 'Taras'
 # puts man.name
 # man.say_hi
-
 
 # class Albuquerque
 #   def initialize actions
@@ -327,7 +318,6 @@
 # a.take_a_ride
 # a.die
 
-
 # class Something
 #   def method_missing name
 #     puts "вызываем неизвестный метод #{name}"
@@ -335,7 +325,6 @@
 # end
 # s = Something.new
 # s.asdblablabla1234
-
 
 # class Demo
 #   def mm
@@ -347,7 +336,6 @@
 # x.send :mm
 # x.send 'mm'
 
-
 # class Something
 #   attr_accessor :name
 #   def initialize
@@ -356,7 +344,6 @@
 # end
 # s = Something.new
 # puts s.name
-
 
 # class Something
 #   attr_accessor :x, :y
@@ -374,7 +361,6 @@
 # puts s.x
 # puts s.y
 
-
 # class Animal
 #   def run
 #     @name = 'Dog'
@@ -384,7 +370,7 @@
 # aa = Animal.new
 # aa.run
 # def aa.gav
-# 	puts "#{@name} gavkaet!"
+#   puts "#{@name} gavkaet!"
 # end
 # aa.gav
 #  puts aa.methods - Object.methods

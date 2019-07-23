@@ -1,10 +1,11 @@
+# frozen_string_literal: true
+
 # b = gets.to_s
 # puts b.size
 # c = gets.strip
 # puts c.size
 # a = gets.chomp
 # puts a.size
-
 
 # hh = {}
 # loop do

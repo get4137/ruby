@@ -1,5 +1,6 @@
-# A block is basically just code that you put inside do and end (or { and } for one-liners)
+# frozen_string_literal: true
 
+# A block is basically just code that you put inside do and end (or { and } for one-liners)
 
 # # One thing to note is that any method can receive a block. Doesn’t matter if it uses it or not
 #
@@ -8,7 +9,6 @@
 # end
 #
 # my_method { "hello" } # => "something"
-
 
 # # both iterate over the array (actually, over anything that mixes in Enumerable) but map will return an Array composed of the block results while each will just return the original Array
 # arr = ["tokyo", "london", "rio"]
@@ -23,13 +23,11 @@
 #   puts "#{i +1}. #{item}"
 # end
 
-
 # hh = {'a' => 3, 'b' => 2, 'c' => 1}
 # hh.keys.each do |k|
 #   values = hh[k]
 #   puts values
 # end
-
 
 # for i in 0..5
 #   puts "Value of local variable is #{i}"
@@ -37,7 +35,6 @@
 # (0..5).each do |i|
 #   puts "Value of local variable is #{i}"
 # end
-
 
 # @hh = {}
 # def add_person opt
@@ -67,7 +64,6 @@
 # end
 # show_hash
 
-
 # def show_book book
 #   puts "===================================<br/>"
 # book.each do |k,v|
@@ -80,7 +76,6 @@
 # book1.merge!(book2)
 # puts "<body>"
 # show_book book1
-
 
 # class Airplane
 #   attr_reader :model
@@ -118,7 +113,6 @@
 #   puts "is moving?: #{plane.moving?}"
 # end
 
-
 # class Book
 #   def initialize
 #     @hh = {}
@@ -149,14 +143,12 @@
 # puts b.aa
 # b.last_person
 
-
 # say_hi = lambda {puts 'Hi'}
 # say_bye = lambda {puts 'Bye'}
 # week = [say_hi, say_hi, say_hi, say_hi, say_hi, say_bye, say_bye]
 # week.each do |f|
 #   f.call
 # end
-
 
 # (1..5).each do |x|
 # puts x
@@ -175,7 +167,6 @@
 # puts x
 # end
 
-
 # def get_com
 #  'left'
 # end
@@ -185,7 +176,6 @@
 #  puts 'робот едет влево'
 # end
 
-
 # def get_password
 #  print 'введите пароль: '
 #  gets.strip
@@ -193,14 +183,12 @@
 # xx = get_password
 # puts "был введен пароль: #{xx}"
 
-
 # def print_names
 #  puts 'Тарас'
 #  puts 'Таня'
 # end
 # puts 'сегодня у нас на занятии:'
 # print_names
-
 
 # def get_com
 #  x = rand(1..4)
@@ -218,7 +206,6 @@
 # com = get_com
 # puts "получена команда: #{com}"
 
-
 # def get_com
 #  :left
 # end
@@ -228,14 +215,12 @@
 #  puts 'робот едет влево'
 # end
 
-
 # name = 'Taras'
 # age = 27
 # def say_hi k,v
 #   puts "hi, #{k} - #{v}"
 # end
 # say_hi name,age
-
 
 # class Something
 #   def method_missing name
@@ -245,12 +230,10 @@
 # s = Something.new
 # s.asdblablabla1234
 
-
 # def method_missing name
 #   puts "missing method: #{name}"
 # end
 # check
-
 
 # def left
 #   puts 'robot goes left'
@@ -262,12 +245,10 @@
 # a = gets.strip
 # send a
 
-
 # def mm hh
 #   puts hh.inspect
 # end
 # send :mm, :aa => '111', :b => '222'
-
 
 # class Something
 #   attr_accessor :name
@@ -277,7 +258,6 @@
 # end
 # s = Something.new
 # puts s.name
-
 
 # class Something
 #   attr_accessor :x, :y
@@ -295,12 +275,10 @@
 # puts s.x
 # puts s.y
 
-
 # def mm par1
 # puts par1
 # end
 # send :mm, 555
-
 
 # [1, 2, 3].each do |n|
 #   # Prints out a number
@@ -308,13 +286,11 @@
 # end
 # [1, 2, 3].each {|n| puts "Number #{n}"}
 
-
 # a = [ 1, 2, 3, 4 ]
 # a.each_with_index do |x, i|
 #   puts x * i
 # end
 # puts a.map.with_index { |x, i| x * i }
-
 
 # my_proc = Proc.new { |x| x % 2 == 0 }
 # my_proc2 = proc { |x| x % 2 == 0 }
@@ -327,7 +303,6 @@
 # puts my_proc3.call(2)
 # puts my_proc4.call(2)
 
-
 # @arr = ['taras', 'tanya']
 #
 # def capitalize
@@ -336,7 +311,6 @@
 #
 # capitalize
 # puts @arr
-
 
 # module A
 
@@ -363,7 +337,6 @@
 # end
 # hello(mr, ms)
 
-
 # lam = lambda { |x, y| puts x, y } # лямбда с одним аргументов
 # lam.call('Привет!', 'medved') # => Привет!
 # lam.call # => ArgumentError: wrong number of arguments (0 for 1)
@@ -374,7 +347,6 @@
 # proc.call # => nil
 # proc.call('Привет,', 'как', 'дела?') # => Привет,
 
-
 # class MyClass
 #   def self.hello
 #     p 'hello'
@@ -383,15 +355,16 @@
 
 # MyClass.hello
 
-
 class Animal
-	def run
-		puts 'run'
-	end
-	private 
-	def eat
-		puts 'eat'
-	end
+  def run
+    puts 'run'
+  end
+
+  private
+
+  def eat
+    puts 'eat'
+  end
 end
 dog = Animal.new
 dog.run

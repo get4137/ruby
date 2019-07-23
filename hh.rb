@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # hh = {
 #     'dog' => ['собака','пес'],
 #     'cat' => ['кошка','кот'],
@@ -14,7 +16,6 @@
 #   puts hh[eng]
 # end
 
-
 # hh = {}
 # while true
 #   print 'enter name (Enter to stop): '
@@ -27,7 +28,6 @@
 #   hh[name] = number
 # end
 # puts hh
-
 
 # hh = {
 #     'dog' => 'собака',
@@ -43,14 +43,12 @@
 #   puts hh[eng]
 # end
 
-
 # hh = {'Mike' => '35373', 'Jessie' => '31380'}
 # hh.each do |k,v|
 #   puts "name: #{k}\nphone:  #{v}"
 # end
 # hh['Walt'] = '32211'
 # puts hh['Walt']
-
 
 # def print_details details
 #   print details[:name] if details[:name]
@@ -64,21 +62,17 @@
 # print_details hh
 # print_details hh1
 
-
 # hh = {'cat' => 'кошка', 'dog' => 'собака'}
 # x = gets.strip
 # puts hh.key?(x)   #hh.has_key? x
-
 
 # hh = {'cat' => 'кошка', 'dog' => 'собака'}
 # if hh['cat'] != nil    #if hh['dog']
 #   puts 'ok'
 # end
 
-
 # hh = {'cat' => ['кошка', 'кот'], 'dog' => 'собака'}
 # puts hh.has_value? ['кошка', 'кот']
-
 
 # hh = {
 #     'dog' => ['собака','пес'],
@@ -91,22 +85,18 @@
 # end
 # puts x
 
-
 # hh = {'a' => 3, 7 => '2', 'c' => 1}
 # if hh.key?(7)
 #   puts hh[7]
 # end
 
-
 # hh = {'Mike' => 3, 7 => '2', 'c' => [1, 2, '5']}
 # hh.delete 'Mike'
 # puts hh
 
-
 # hh = {}
 # hh.store('Mike', 25)
 # puts hh
-
 
 # hh = {'aa' => 1, 'bb' => 2}
 # hh.delete('bb')
@@ -114,19 +104,16 @@
 #   puts hh
 # end
 
-
 # hh = {'a' => 3, 'b' => 2, 'c' => 1}
 # hh.keys.each do |k|
 #   values = hh[k]
 #   puts values
 # end
 
-
 # hh = {'Luke' => 32}
 # hh.store('Mike', [25, 17, 67])
 # puts hh
 # puts hh.values.inspect
-
 
 # @hh = {}
 # def add_person opt
@@ -156,7 +143,6 @@
 # end
 # show_hash
 
-
 # def show_book book
 #   puts "===================================<br/>"
 # book.each do |k,v|
@@ -169,7 +155,6 @@
 # book1.merge!(book2)
 # puts "<body>"
 # show_book book1
-
 
 # class Book
 #   attr_reader :last_person
@@ -194,12 +179,10 @@
 # b.show_all
 # puts "last: #{b.last_person}"
 
-
 # def mm hh
 #   puts hh.inspect
 # end
 # send :mm, :aa => '111', :b => '222'
-
 
 # class Something
 #   attr_accessor :x, :y
@@ -216,7 +199,6 @@
 # s = Something.new :x => 1, :y => 2
 # puts s.x
 # puts s.y
-
 
 # hh = {}
 # loop do

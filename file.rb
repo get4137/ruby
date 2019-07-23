@@ -1,14 +1,14 @@
+# frozen_string_literal: true
+
 # input = File.open('test.txt', 'r')
 # while (line = input.gets)
 #   puts line
 # end
 # input.close
 
-
 # output = File.open('test.txt', 'a') #append
 # output.write "\nsomething"
 # output.close
-
 
 # input = File.open('test.txt', 'r')
 # while (line = input.gets)

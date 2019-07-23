@@ -1,19 +1,18 @@
+# frozen_string_literal: true
+
 # arr = ['aa', 'bb', [1,2,3], 4]
 # puts arr
 # puts arr.inspect
-
 
 # hh = {'Luke' => 32}
 # hh.store('Mike', [25, 17, 67])
 # puts hh
 # puts hh.values.inspect
 
-
 # def mm hh
 #   puts hh.inspect
 # end
 # send :mm, :aa => '111', :b => '222'
-
 
 # hh = {}
 # loop do

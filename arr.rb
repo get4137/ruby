@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # arr = [1, 2, 3, 4]
 # print arr
 # arr.unshift(0)
@@ -21,7 +23,7 @@
 # arr = x.split(//)
 # size = arr.size
 # (size).downto(0) do |x|
-# 	print arr[x]
+#   print arr[x]
 # end
 # puts x.split(//).reverse.join('')
 
@@ -37,28 +39,23 @@
 #   arr << x
 # end
 
-
 # arr = %W[Taras Tanya]
 # arr.each_with_index do |item, i|
 #   puts "#{i +1}. #{item}"
 # end
 
-
 # arr = ['aa', 'bb', [1,2,3], 4]
 # puts arr
 # puts arr.inspect
-
 
 # arr = []
 # arr.push('Mike')
 # puts arr
 
-
 # arr = ['aa', 'bb'].push('cc').push('dd')
 # puts arr
 # arr.clear
 # puts arr
-
 
 # class Airplane
 #   attr_reader :model
@@ -95,7 +92,6 @@
 #   puts "model: #{plane.model}, speed: #{plane.speed}, alt: #{plane.alt}"
 #   puts "is moving?: #{plane.moving?}"
 # end
-
 
 # class Airport
 #   attr_reader :name, :planes
@@ -137,7 +133,6 @@
 #   end
 # end
 
-
 # class Album
 #   attr_reader :name, :songs
 #   def initialize name
@@ -176,14 +171,12 @@
 # puts artist.albums[0].name
 # puts album.songs[0].name
 
-
 # say_hi = lambda {puts 'Hi'}
 # say_bye = lambda {puts 'Bye'}
 # week = [say_hi, say_hi, say_hi, say_hi, say_hi, say_bye, say_bye]
 # week.each do |f|
 #   f.call
 # end
-
 
 # total = 0
 # input = File.open('17_task.txt', 'r')

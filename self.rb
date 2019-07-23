@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # class Man
 #   def self.say_hi
 #     puts 'hi'
@@ -5,12 +7,11 @@
 # end
 # Man.say_hi
 
-
 # class Man
-# 	attr_reader :name
-# 	def initialize
-# 		@name = 'Bob'
-# 	end
+#   attr_reader :name
+#   def initialize
+#     @name = 'Bob'
+#   end
 #   def self.say_hi
 #     puts 'hi'
 #   end
@@ -22,7 +23,6 @@
 # man1 = Man.new
 # puts man1.name
 # puts man1.say_hi2
-
 
 # class Manager
 #   def self.say_hi
