@@ -191,3 +191,47 @@
 # for переменная [, переменные ... ] in выражение [do]
 #   код
 # end
+
+# payload = {
+#     checklist: {
+#         title: "Some title",
+#         categories: [
+#             {
+#                 title: 'Category 1',
+#                 questions: [
+#                     {
+#                         title: 'Question 1',
+#                         body:  'Question Body 1',
+#                         require_evidence: true
+#                     },
+#                     {
+#                         title: 'Question 2',
+#                         body:  'Question Body 2',
+#                         require_evidence: false
+#                     }
+#                 ]
+#             },
+#             {
+#                 title: 'Category 2',
+#                 questions: [
+#                     {
+#                         title: 'Question 6',
+#                         body:  'Question Body 6',
+#                         require_evidence: true
+#                     },
+#                     {
+#                         title: 'Question 7',
+#                         body:  'Question Body 7',
+#                         require_evidence: false
+#                     }
+#                 ]
+#             }
+#         ]
+#     }
+# }
+# payload[:checklist][:categories].each do |x|
+# puts x[:title]
+# puts "===================================="
+# puts x[:questions]
+# puts "===================================="
+# end
