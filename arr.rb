@@ -229,9 +229,10 @@
 #         ]
 #     }
 # }
+
 # payload[:checklist][:categories].each do |x|
+# x[:questions].each do |e|
+# 	puts e[:title]
+# end
 # puts x[:title]
-# puts "===================================="
-# puts x[:questions]
-# puts "===================================="
 # end
